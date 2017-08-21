@@ -1,0 +1,24 @@
+Conda/Python shortcuts:
+
+conda env list =>List all environments created in conda
+ conda env remove -n env_name =>remove the specified environment 
+
+conda create -n udacity python=3
+source activate udacity /deactivate
+
+conda install numpy pandas matplotlib
+conda install jupyter notebook
+conda install nb_conda  => install Notebook Conda to help manage your environments.
+conda list
+
+conda env export > yaml file
+
+{conda upgrade conda
+conda upgrade --all}
+
+
+
+jupyter nbconvert --to html notebook.ipynb =>  to convert a notebook to an HTML file, in your terminal use
+
+jupyter nbconvert notebook.ipynb --to slides --post serve
+
